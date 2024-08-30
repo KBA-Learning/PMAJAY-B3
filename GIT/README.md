@@ -30,34 +30,34 @@ ssh-add ~/.ssh/id_ed25519
 
 cat ~/.ssh/id_ed25519.pub
 ```
-#### Copy from ssh to the last don’t include the tag.
+#### Copy from ssh to the last (without tag).
 
 Now go to the settings and select ssh and gpg keys and paste this key.
 
 Now if you clone using ssh. It will automatically be cloned to your local sytem.
 
 
-#### To start git repo in your local system and later move folder to github.
+**Git Commands
 
-4. Initialize git in a directory/folder
+1. Initialize git in a directory/folder
 ```bash
 git init
 ```
-5. Stage the changes
+2. Stage the changes
 ```bash
 git add <file name> #use this to add by file name
 git add . # use this for adding all the changes to staging area
 ```
-6. Commit the changes
+3. Commit the changes
 ```bash
 git commit -m "<add your commit message here>"
 ```
 
-7. push to the repo
+4. push to the repo
 ```bash
 git push
 ```
-8. pull from the remote repo
+5. pull from the remote repo
 ```bash
 git pull 
 ```
