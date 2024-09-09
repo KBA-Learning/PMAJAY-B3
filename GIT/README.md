@@ -15,8 +15,8 @@ sudo apt install git
 ```
 3. **Set Up Git**: Configure your Git username and email using the following commands:
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "Your Github UserName"
+git config --global user.email "your Github email"
 ```
 
 4. **SSH Key Configuration**
@@ -37,7 +37,7 @@ Now go to the settings and select ssh and gpg keys and paste this key.
 Now if you clone using ssh. It will automatically be cloned to your local sytem.
 
 
-**Git Commands
+####Git Commands
 
 1. Initialize git in a directory/folder
 ```bash
