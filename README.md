@@ -4,7 +4,7 @@
 https://forms.gle/TwYnu7xgKLgr4HKR9
 
 ## CSS & TAILWIND EXAM LINK
-https://forms.gle/ur8X2e7UybVcVyff8
+https://forms.gle/ZPaeGrH5Wsev1JUG6
 
 # ASSIGNMENT LINKS
 
