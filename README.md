@@ -3,6 +3,8 @@
 ## HTML EXAM LINK
 https://forms.gle/TwYnu7xgKLgr4HKR9
 
+## CSS & TAILWIND EXAM LINK
+https://forms.gle/ZPaeGrH5Wsev1JUG6
 
 # ASSIGNMENT LINKS
 
