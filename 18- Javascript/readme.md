@@ -25,7 +25,7 @@ Print the string “MongoDB is a decentralised distributed ledger” using subst
 
 
 
-Compare “Hello World” & “hEllO World” and display the result & its type.
+Compare “Hello World” & “hEllO World” and display the result & its type. 
 
 
 
