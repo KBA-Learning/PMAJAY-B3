@@ -1,4 +1,4 @@
-Enter a list/array of films you like
+1. Enter a list/array of films you like
 
 
     a. From the list find the position of your favourite film
@@ -17,6 +17,9 @@ Enter a list/array of films you like
 
 
     d. Search whether "ARM" is on your list
+    
+
+2. Get the website name from a particular url
 
 
 Print the patterns
