@@ -1,9 +1,21 @@
 Enter a list/array of films you like
+
+
     a. From the list find the position of your favourite film
+
+
     b. Add one more film to the list
+
+
     c. Pop one film from the list
+
+
     d. Delete the least interested film from the list
+
+
     c. Make a different list from 3rd position to 6th position
+
+    
     d. Search whether "ARM" is on your list
 
 
