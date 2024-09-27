@@ -1,0 +1,1 @@
+1. Read two matrix and check whether they are same  or not
