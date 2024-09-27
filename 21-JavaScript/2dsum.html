@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[[],[],[]];
+        let b=[[],[],[]];
+        let c=[[],[],[]]
+        let num =1;
+        for(i=0;i<3;i++){
+            for(j=0;j<4;j++){
+                a[i][j]=num;
+            }
+            num=num+1;
+        }
+        let n=0;
+
+        for(i=0;i<3;i++){
+            for(j=0;j<4;j++){
+                
+                n=n+2;
+                b[i][j]=n;
+            }
+        }
+        for(i=0;i<3;i++){
+            document.write("<br>")
+            for(j=0;j<4;j++){
+                document.write(b[i][j])
+            }
+        }
+         
+        // let b=[[],[],[]]
+        for(i=0;i<3;i++){
+            for(j=0;j<4;j++){
+                c[i][j]=a[i][j]+b[i][j];
+            }
+        }
+        document.write("The sum of matrix:<br>")
+
+        for(i=0;i<3;i++){
+            document.write("<br>")
+            for(j=0;j<4;j++){
+                document.write(c[i][j]);
+            }
+        }
+        
+    </script>
+</body>
+</html>
