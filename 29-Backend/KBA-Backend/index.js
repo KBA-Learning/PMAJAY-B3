@@ -25,13 +25,18 @@ app.post('/signup',async(req,res)=>{
     console.log(FirstName);
     const newP= await bcrypt.hash(Password,10)
     console.log(newP);
+    if(user.has(UserName)){
+        res.status(400).json({message:"User Already registerd"})
+    }
+    else{
     user.set(UserName,{
        FirstName,LastName,Password:newP,Role 
+    
     });
     
     console.log(user.get(UserName));
     // res.status(201).send("Data Saved");
-    res.status(201).json({message:"Data Saved"});
+    res.status(201).json({message:"Data Saved"});}
     
 
 
