@@ -1,15 +1,18 @@
 import {Router} from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { authenticate } from '../Middleware/auth.js';
+
 
 const adminRoute=Router();
 const user=new Map();
+const course=new Map();
 const secretKey="hello";
 
 adminRoute.get('/',(req,res)=>{
     res.send("Hello World");
  })
- 
+ function userLogin(){}
  adminRoute.post('/signup',async(req,res)=>{
      try{
         const data = req.body;
@@ -68,7 +71,53 @@ adminRoute.get('/',(req,res)=>{
 
  })
 
+ adminRoute.post('/addCourse',authenticate, (req,res)=>{
+    console.log(req.UserName);
+    console.log(req.UserRole);
+    const user=req.UserRole;
+    const { CourseName, CourseId, CourseType, Description, Price } = req.body;
+
+    try {
+
+        if (user == "admin") {
+            try {
+                if (course.get(CourseName)) {
+                    res.status(400).json({ message: "Course already present" })
+                }
+                else {
+                    course.set(CourseName, {
+                        CourseId: CourseId,
+                        CourseType: CourseType,
+                        Description: Description,
+                        Price: parseInt(Price)
+                    })
+
+                    res.status(201).json({ message: "Course Details Uploaded" });
+                    console.log(course.get(CourseName));
+
+                }
+            }
+
+            catch (error) {
+                res.status(400).json({ message: "Check the Course Details" });
+
+            }
+        }
+
+        else {
+            res.status(400).json({ message: "Unauthorized Access" })
+        }
+    }
 
 
- export {adminRoute};
+    catch (error) {
+        res.status(401).json({ message: "Check Course details" });
+
+    }
+ })
+
+
+
+ export  {adminRoute};
+// export default {adminRoute,userLogin};
  
