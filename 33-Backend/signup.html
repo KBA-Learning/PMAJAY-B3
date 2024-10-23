@@ -5,7 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="stylecss/signup.css">
-   
+   <script>
+    async function handleSubmit(event){
+            event.preventDefault();
+            const firstName = document.getElementById('FirstName').value;
+            const lastName = document.getElementById('LastName').value;
+            const username = document.getElementById('UserName').value;
+            const password = document.getElementById('Password').value;
+            const userRole = document.getElementById('UserRole').value;
+
+            console.log(firstName);
+
+            const response= await fetch("http://127.0.0.1:8000/signup",{
+                method:"POST",
+                headers:{
+                    'Content-Type':'application/json'
+                },
+                body:JSON.stringify(
+                {
+                FirstName:firstName,
+                LastName:lastName, 
+                UserName:username, 
+                Password:password,
+                UserRole:userRole
+                })
+            });
+
+            console.log(response.status);
+            if(response.status==201){
+                // window.location.href="/signup.html"
+                alert("Successfully registerd");
+            }
+            else if(response.status==400){
+                alert("Username already used");
+            }
+            else{
+                alert("Server Error..Try after sometime");
+            }
+            const data= await response.json();
+            console.log(data);
+            
+
+
+    }
+   </script>
 </head>
 <body>
 
@@ -22,7 +65,7 @@
         </nav>
            <div class="container">
             <h1>Sign Up</h1>
-            <form id="signupForm" >
+            <form id="signupForm" onsubmit="handleSubmit(event)">
                 <div class="inpart">
                     <label for="name">Name :</label>
                     <br>
