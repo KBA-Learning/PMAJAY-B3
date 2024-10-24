@@ -81,6 +81,13 @@
             window.location.href='/notfound.html';
         }
     }
+    function handleMore(){
+            const more=document.getElementById("name").value;
+            console.log(more);
+            localStorage.setItem('course',more);
+            window.location.href='/viewCourse.html'
+            
+        }
   </script>
 <body>
    <!-- navbar  -->
