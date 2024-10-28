@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBA Courses Feedback</title>
+</head>
+<body>
+    <h1>Welcome to KBA Courses</h1>
+    <div id="experienceSection"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Create a label for the radio buttons group
+let label = document.createElement("label");
+label.innerHTML = "How was your experience with KBA: ";
+document.getElementById("experienceSection").appendChild(label);
+
+// Create radio button for "Good"
+let goodRadio = document.createElement("input");
+goodRadio.type = "radio";
+//goodRadio.id = "good";
+goodRadio.name = "hi";
+//goodRadio.value = "Good";
+document.getElementById("experienceSection").appendChild(goodRadio);
+
+let goodLabel = document.createElement("label");
+//goodLabel.htmlFor = "good";
+goodLabel.innerHTML = "Good";
+document.getElementById("experienceSection").appendChild(goodLabel);
+
+// Create radio button for "Average"
+let averageRadio = document.createElement("input");
+averageRadio.type = "radio";
+averageRadio.id = "average";
+averageRadio.name = "hi";
+averageRadio.value = "Average";
+document.getElementById("experienceSection").appendChild(averageRadio);
+
+let averageLabel = document.createElement("label");
+averageLabel.htmlFor = "average";
+averageLabel.innerHTML = "Average";
+document.getElementById("experienceSection").appendChild(averageLabel);
+
+// Create radio button for "Bad"
+let badRadio = document.createElement("input");
+badRadio.type = "radio";
+badRadio.id = "bad";
+badRadio.name = "experience";
+badRadio.value = "Bad";
+document.getElementById("experienceSection").appendChild(badRadio);
+
+let badLabel = document.createElement("label");
+badLabel.htmlFor = "bad";
+badLabel.innerHTML = "Bad";
+document.getElementById("experienceSection").appendChild(badLabel);
+
+    </script>
+</body>
+</html>
