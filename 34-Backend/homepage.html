@@ -82,9 +82,13 @@
         }
     }
     function handleMore(){
+     
             const more=document.getElementById("name").value;
             console.log(more);
+            fetch(`http://127.0.0.1:8000/getCourse?courseName=${more}`)
+            
             localStorage.setItem('course',more);
+            const x=localStorage.getItem('course');
             window.location.href='/viewCourse.html'
             
         }
