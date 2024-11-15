@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react'
 import MainLayout from '../layouts/MainLayout'
 import bannerImg from '../assets/images/banner-kba.png'
 import {useParams, Link} from 'react-router-dom'
-import coursesData from '../data/courses.json'
 import NotFound from './NotFound'
 
 const CoursePage = () => {
