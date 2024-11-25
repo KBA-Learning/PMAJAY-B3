@@ -9,6 +9,9 @@ https://forms.gle/ZPaeGrH5Wsev1JUG6
 ## Backend Exam LINK
 https://docs.google.com/document/d/1Uut1e5ENyXu5TorDM6KzhMGSRn-EbxSH-3pxotji8hU/edit?usp=sharing
 
+## React Exam LINK
+https://docs.google.com/document/d/1Wq7vSyJllTLozrYRu2n6WYq2bo0IwZobCWupTbwlWY8/edit?usp=sharing
+
 # ASSIGNMENT LINKS
 
 # HTML
