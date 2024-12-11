@@ -34,10 +34,6 @@ https://classroom.github.com/a/m_-ImqCU
 
 https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit
 
-# SmartContract Assignment
-
-https://classroom.github.com/a/vYPVROFP
-
 
 # Node JS  
 https://classroom.github.com/a/sH2jvXCy
@@ -45,3 +41,8 @@ https://classroom.github.com/a/sH2jvXCy
 
 # MongoDB
 https://classroom.github.com/a/oluQKDiE
+
+# SmartContract Assignment
+
+https://classroom.github.com/a/vYPVROFP
+
