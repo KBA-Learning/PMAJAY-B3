@@ -54,3 +54,7 @@ https://github.com/vishnuajithg/CertifyChain
 
 https://classroom.github.com/a/fAtBvyT0
 
+# SmartContract Assignment II
+
+https://classroom.github.com/a/AuUFPQZu
+
