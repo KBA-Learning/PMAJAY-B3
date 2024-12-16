@@ -50,3 +50,7 @@ https://classroom.github.com/a/vYPVROFP
 
 https://github.com/vishnuajithg/CertifyChain
 
+# Ethereum Project Topics
+
+https://classroom.github.com/a/fAtBvyT0
+
