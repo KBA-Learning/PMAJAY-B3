@@ -65,7 +65,7 @@ Note: Open a terminal in the **CHF** Folder & Execute the Following Commands
 
 ## Step 2: Extract
 
-`sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.4.linux-amd64.tar.gz`
+`sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz`
 
 
 ## Step 3: Add /usr/local/go/bin to the PATH environment variable. Open the /etc/environment file
