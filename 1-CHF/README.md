@@ -60,7 +60,7 @@ Note: Open a terminal in the **CHF** Folder & Execute the Following Commands
 # Go
 ## Step 1: Download Go
 
-`curl -OL  https://go.dev/dl/go1.21.4.linux-amd64.tar.gz`
+`curl -OL  https://go.dev/dl/go1.22.5.linux-amd64.tar.gz`
 
 
 ## Step 2: Extract
