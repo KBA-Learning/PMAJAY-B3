@@ -52,7 +52,7 @@ Note: Open a terminal in the **CHF** Folder & Execute the Following Commands
 
 `curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh`
 
-`./install-fabric.sh -f '2.5.4' -c '1.5.7'`
+`./install-fabric.sh -f '2.5.9' -c '1.5.12'`
 
 `sudo cp fabric-samples/bin/* /usr/local/bin`
 
