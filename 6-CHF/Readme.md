@@ -31,6 +31,8 @@ minifab query -n KBA-Automobile -p '"ReadCar","car01"'
 # Add DeleteCar function to car-contract
 
 // DeleteCar removes the instance of Car from the world state
+
+
 func (c *CarContract) DeleteCar(ctx contractapi.TransactionContextInterface, carID string) (string, error) {
 
 	clientOrgID, err := ctx.GetClientIdentity().GetMSPID()
