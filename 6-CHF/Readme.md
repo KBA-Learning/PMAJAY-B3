@@ -32,7 +32,7 @@ minifab query -n KBA-Automobile -p '"ReadCar","car01"'
 
 // DeleteCar removes the instance of Car from the world state
 
-
+```
 func (c *CarContract) DeleteCar(ctx contractapi.TransactionContextInterface, carID string) (string, error) {
 
 	clientOrgID, err := ctx.GetClientIdentity().GetMSPID()
@@ -59,8 +59,7 @@ func (c *CarContract) DeleteCar(ctx contractapi.TransactionContextInterface, car
 		return "", fmt.Errorf("user under following MSPID: %v can't perform this action", clientOrgID)
 	}
 }
-
-
+```
 
 **Update the chaincode**
 ```
